@@ -3,10 +3,19 @@
 :root {
   --background: #09090b;
   --accent: #9425ea;
-  --accent-dark: #7316bb;
+  --accentDark: #7316bb;
   --text: #fff;
-  --secondary-text: #8b8b8b;
+  --secondaryText: #8b8b8b;
   --card: #1a1a1a;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-accent: var(--accent);
+  --color-accentDark: var(--accentDark);
+  --color-text: var(--text);
+  --color-secondaryText: var(--secondaryText);
+  --color-card: var(--card);
 }
 
 body {
@@ -17,5 +26,19 @@ body {
 }
 
 h1 {
-  font-weight: 900;
+  line-height: 1;
+}
+
+h2 {
+  color: var(--accent);
+  font-size: 40px;
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+  h2 {
+    font-size: 30px;
+  }
 }
