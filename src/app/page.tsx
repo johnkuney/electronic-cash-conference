@@ -1,7 +1,3 @@
-import Link from 'next/link'
-import SpeakerCard from '@/components/speakerCard'
-import { speakers } from './data'
-
 export default function Home() {
   return (
     <div>
@@ -51,12 +47,13 @@ export default function Home() {
           on the future of digital money.
           <br />
           <br />
-          Through talks, panels, and hands-on workshops, we'll explore topics
-          like privacy-preserving payments, permissionless innovation, and what
-          it means to build resilient, global peer-to-peer cash systems.
+          Through talks, panels, and hands-on workshops, we&apos;ll explore
+          topics like privacy-preserving payments, permissionless innovation,
+          and what it means to build resilient, global peer-to-peer cash
+          systems.
           <br />
           <br />
-          Come connect with the community pushing the boundaries of what's
+          Come connect with the community pushing the boundaries of what&apos;s
           possible in decentralized finance.
         </p>
       </section>
