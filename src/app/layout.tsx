@@ -11,7 +11,8 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   title: 'Electronic Cash Conference 2025 | Barcelona',
-  description: 'Electronic Cash Conference 2025 | Barcelona',
+  description:
+    'Join us at the Electronic Cash Conference in Barcelona. Oct 4-5, 2025',
 }
 
 export default function RootLayout({
