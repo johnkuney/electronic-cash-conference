@@ -4,9 +4,7 @@ export default function Home() {
       <section className="relative">
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-40 pb-30 lg:grid-cols-2">
           <div className="z-10">
-            <span className="text-accent text-sm tracking-[12px]">
-              SAVE THE DATE
-            </span>
+            <span className="text-accent tracking-[12px]">SAVE THE DATE</span>
             <h1 className="text-5xl font-black sm:text-6xl md:text-[90px]">
               ELECTRONIC
               <br />
