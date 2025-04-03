@@ -12,7 +12,7 @@ export default function Home() {
               <br />
               CONFERENCE
               <br />
-              <span className="font-normal">BARCELONA</span>
+              <span className="font-light">BARCELONA</span>
             </h1>
 
             <div className="text-pop mt-4 text-2xl tracking-[12px] md:text-5xl">
@@ -29,7 +29,7 @@ export default function Home() {
 
           <div className="relative z-7 flex h-[350px] items-center justify-center lg:h-[620px]">
             <img
-              src="/hero.png"
+              src="/hero-2.png"
               alt="Electronic Cash Logo"
               className="max-h-full max-w-full"
             />

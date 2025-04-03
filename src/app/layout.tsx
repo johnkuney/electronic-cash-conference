@@ -1,12 +1,12 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Lato } from 'next/font/google'
 import './globals.css'
 import Navbar from '@/components/navbar'
 
-const inter = Inter({
-  variable: '--font-inter',
+const lato = Lato({
+  variable: '--font-lato',
   subsets: ['latin'],
-  weight: ['400', '700', '900'],
+  weight: ['300', '400', '700', '900'],
 })
 
 const siteTitle = 'Electronic Cash Conference 2025 | Barcelona'
@@ -48,7 +48,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} antialiased`}>
+      <body className={`${lato.variable} antialiased`}>
         <Navbar />
         {children}
       </body>
