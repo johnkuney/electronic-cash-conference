@@ -28,13 +28,13 @@ export default function Home() {
             </Link> */}
           </div>
 
-          <div className="relative z-7 flex h-[350px] items-center justify-center lg:h-[620px]">
+          {/* <div className="relative z-7 flex h-[350px] items-center justify-center lg:h-[620px]">
             <img
               src="/hero-3.png"
               alt="Electronic Cash Logo"
               className="max-h-full max-w-full"
             />
-          </div>
+          </div> */}
         </div>
         <div className="from-accent/20 to-background/0 pointer-events-none absolute bottom-0 h-200 w-full bg-gradient-to-t via-transparent" />
       </section>
