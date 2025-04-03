@@ -12,7 +12,7 @@ const lato = Lato({
 const siteTitle = 'Electronic Cash Conference 2025 | Barcelona'
 const siteDescription =
   'Join us at the Electronic Cash Conference in Barcelona. Oct 4-5, 2025'
-const socialImage = 'https://ecashconference.com/social-card.png'
+const socialImage = 'https://ecashconference.com/social-card.jpg'
 
 export const metadata: Metadata = {
   title: siteTitle,
