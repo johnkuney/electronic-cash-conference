@@ -1,7 +1,8 @@
 export default function Home() {
   return (
     <div>
-      <section className="relative">
+      <section className="relative bg-[url('/bg.jpg')] bg-cover bg-center bg-no-repeat">
+        <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50"></div>
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-40 pb-30 lg:grid-cols-2">
           <div className="z-10">
             <span className="text-accent tracking-[12px]">SAVE THE DATE</span>
@@ -29,7 +30,7 @@ export default function Home() {
 
           <div className="relative z-7 flex h-[350px] items-center justify-center lg:h-[620px]">
             <img
-              src="/hero-2.png"
+              src="/hero-3.png"
               alt="Electronic Cash Logo"
               className="max-h-full max-w-full"
             />
