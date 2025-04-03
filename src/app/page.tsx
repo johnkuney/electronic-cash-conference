@@ -12,10 +12,10 @@ export default function Home() {
               <br />
               CONFERENCE
               <br />
-              <span className="text-accent">BARCELONA</span>
+              <span className="font-normal">BARCELONA</span>
             </h1>
 
-            <div className="text-accent mt-4 text-2xl tracking-[12px] opacity-60 md:text-5xl">
+            <div className="text-pop mt-4 text-2xl tracking-[12px] md:text-5xl">
               OCT 4-5 | 2025
             </div>
 
