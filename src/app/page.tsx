@@ -47,9 +47,9 @@ export default function Home() {
           <br />
           <br />
           Through talks, panels, and hands-on workshops, we&apos;ll explore
-          topics like privacy-preserving payments, permissionless innovation,
-          and what it means to build resilient, global peer-to-peer cash
-          systems.
+          topics such as building the permissionless economy, new products
+          enabled by the properties of scalable digital cash, and what it means
+          to build resilient global peer-to-peer cash systems.
           <br />
           <br />
           Come connect with the community pushing the boundaries of what&apos;s
