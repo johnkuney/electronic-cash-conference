@@ -4,9 +4,12 @@ export default function Home() {
   return (
     <div>
       <section className="relative bg-[url('/bg2.jpg')] bg-cover bg-center bg-no-repeat">
-        <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50"></div>
+        <div
+          className="fade-bg absolute top-0 left-0 h-full w-full bg-black"
+          style={{ animationDelay: '200ms' }}
+        ></div>
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-40 pb-30 lg:grid-cols-2">
-          <div className="z-10">
+          <div className="fade-up z-10" style={{ animationDelay: '300ms' }}>
             <span className="text-accent tracking-[12px]">SAVE THE DATE</span>
             <h1 className="text-5xl font-black sm:text-6xl md:text-[90px]">
               ELECTRONIC
@@ -40,7 +43,11 @@ export default function Home() {
         </div>
         <div className="from-accent/20 to-background/0 pointer-events-none absolute bottom-0 h-200 w-full bg-gradient-to-t via-transparent" />
       </section>
-      <section className="mx-auto max-w-7xl px-6 py-30" id="about">
+      <section
+        className="fade-up mx-auto max-w-7xl px-6 py-30"
+        id="about"
+        style={{ animationDelay: '600ms' }}
+      >
         <h2>About</h2>
         <div className="flex flex-col items-start gap-10 md:flex-row">
           <p className="max-w-3xl text-lg leading-loose">

@@ -43,6 +43,36 @@ h2 {
   margin-bottom: 20px;
 }
 
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  opacity: 0;
+  animation: fadeUp 0.6s ease-in-out forwards;
+}
+
+@keyframes fadeBg {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 50%;
+  }
+}
+
+.fade-bg {
+  opacity: 1;
+  animation: fadeBg 1s ease-in-out forwards;
+}
+
 @media (max-width: 700px) {
   h2 {
     font-size: 30px;
