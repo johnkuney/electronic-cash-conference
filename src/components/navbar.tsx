@@ -40,24 +40,24 @@ export default function Navbar() {
           >
             About
           </Link>
-          {/* <Link
+          <Link
             href="#speakers"
             className="hover:text-accent font-semibold transition duration-200"
           >
             Speakers
-          </Link> */}
+          </Link>
           <Link
             href="#location"
             className="hover:text-accent font-semibold transition duration-200"
           >
             Location
           </Link>
-          {/* <Link
-            href="#register"
-            className="from-accent to-accentDark rounded-full bg-gradient-to-r px-4 py-2 font-semibold text-white transition duration-200 hover:opacity-90"
+          <Link
+            href="#tickets"
+            className="from-accent to-accentDark rounded-full bg-gradient-to-r px-5 py-1 font-semibold text-white transition duration-200 hover:opacity-90"
           >
-            Register
-          </Link> */}
+            Tickets
+          </Link>
         </nav>
 
         {/* Mobile Hamburger */}
@@ -80,13 +80,13 @@ export default function Navbar() {
           >
             About
           </Link>
-          {/* <Link
+          <Link
             href="#speakers"
             onClick={() => setIsOpen(false)}
             className="block font-semibold"
           >
             Speakers
-          </Link> */}
+          </Link>
           <Link
             href="#location"
             onClick={() => setIsOpen(false)}
@@ -94,13 +94,13 @@ export default function Navbar() {
           >
             Location
           </Link>
-          {/* <Link
-            href="#register"
+          <Link
+            href="#speakers"
             onClick={() => setIsOpen(false)}
-            className="block rounded-full bg-gradient-to-r from-purple-600 to-purple-400 px-5 py-2 text-center font-semibold text-white"
+            className="from-accent to-accentDark max-w-[120px] rounded-full bg-gradient-to-r px-5 py-1 text-center font-semibold text-white transition duration-200 hover:opacity-90"
           >
-            Register
-          </Link> */}
+            Tickets
+          </Link>
         </div>
       )}
     </header>

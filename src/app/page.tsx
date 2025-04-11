@@ -1,7 +1,9 @@
+import { SpeakerCardDummy } from '@/components/speakerCard'
+
 export default function Home() {
   return (
     <div>
-      <section className="relative bg-[url('/bg.jpg')] bg-cover bg-center bg-no-repeat">
+      <section className="relative bg-[url('/bg2.jpg')] bg-cover bg-center bg-no-repeat">
         <div className="absolute top-0 left-0 h-full w-full bg-black opacity-50"></div>
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-40 pb-30 lg:grid-cols-2">
           <div className="z-10">
@@ -40,31 +42,42 @@ export default function Home() {
       </section>
       <section className="mx-auto max-w-7xl px-6 py-30" id="about">
         <h2>About</h2>
-        <p className="max-w-3xl text-lg leading-loose">
-          Join us in Barcelona for the Electronic Cash Conference — a two-day
-          gathering of developers, researchers, builders, and advocates focused
-          on the future of digital money.
-          <br />
-          <br />
-          Through talks, panels, and hands-on workshops, we&apos;ll explore
-          topics such as building the permissionless economy, new products
-          enabled by the properties of scalable digital cash, and what it means
-          to build resilient global peer-to-peer cash systems.
-          <br />
-          <br />
-          Come connect with the community pushing the boundaries of what&apos;s
-          possible in decentralized finance.
-        </p>
+        <div className="flex flex-col items-start gap-10 md:flex-row">
+          <p className="max-w-3xl text-lg leading-loose">
+            Join us in Barcelona for the Electronic Cash Conference — a two-day
+            gathering of developers, researchers, builders, and advocates
+            focused on the future of digital money.
+            <br />
+            <br />
+            Through talks, panels, and hands-on workshops, we&apos;ll explore
+            topics such as building the permissionless economy, new products
+            enabled by the properties of scalable digital cash, and what it
+            means to build resilient global peer-to-peer cash systems.
+            <br />
+            <br />
+            Come connect with the community pushing the boundaries of
+            what&apos;s possible in decentralized finance.
+          </p>
+          <img src="/hall.jpg" className="w-full md:w-1/2" />
+        </div>
       </section>
 
-      {/* <section className="mx-auto max-w-7xl px-6 pt-0 pb-30">
+      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30">
         <h2>Speakers</h2>
+        <p className="text-lg leading-loose">
+          We’re excited to host a lineup of incredible speakers. Stay tuned,
+          speaker announcements coming soon!
+        </p>
         <div className="flex flex-wrap">
-          {speakers.map((speaker, i) => (
+          {/* {speakers.map((speaker, i) => (
             <SpeakerCard key={i} speaker={speaker} />
-          ))}
+          ))} */}
+          <SpeakerCardDummy />
+          <SpeakerCardDummy />
+          <SpeakerCardDummy />
+          <SpeakerCardDummy />
         </div>
-      </section> */}
+      </section>
 
       <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="location">
         <h2>Location</h2>
@@ -93,6 +106,38 @@ export default function Home() {
               className="max-h-full max-w-full"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="tickets">
+        <h2>Tickets</h2>
+        <div className="flex flex-col items-start gap-10 md:flex-row">
+          <p>
+            Tickets will be available to purchase (with eCash) soon. Stay tuned
+            for pricing and availability!
+          </p>
+          <img src="/ticket.jpg" alt="ECC Ticket" className="w-full md:w-2/3" />
+        </div>
+      </section>
+
+      <section className="w-full bg-black">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-40 pt-20">
+          <img
+            src="/ecc-logo.png"
+            alt="Electronic Cash Conference Logo"
+            className="h-14 w-auto"
+          />
+          <a
+            href="https://x.com/eCashOfficial"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/x.png"
+              alt="Electronic Cash Conference Logo"
+              className="h-8 w-auto"
+            />
+          </a>
         </div>
       </section>
     </div>
