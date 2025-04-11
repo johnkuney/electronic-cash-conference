@@ -119,11 +119,16 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="tickets">
         <h2>Tickets</h2>
         <div className="flex flex-col items-start gap-10 md:flex-row">
-          <p>
-            Tickets will be available to purchase (with eCash) soon. Stay tuned
-            for pricing and availability!
+          <p className="md:w-1/2">
+            Tickets will be available to purchase (with eCash) soon.
+            <br />
+            Stay tuned for pricing and availability!
           </p>
-          <img src="/ticket.jpg" alt="ECC Ticket" className="w-full md:w-2/3" />
+          <img
+            src="/ticket2.jpg"
+            alt="ECC Ticket"
+            className="w-full md:w-1/2"
+          />
         </div>
       </section>
 
