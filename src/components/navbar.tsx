@@ -95,7 +95,7 @@ export default function Navbar() {
             Location
           </Link>
           <Link
-            href="#speakers"
+            href="#tickets"
             onClick={() => setIsOpen(false)}
             className="from-accent to-accentDark max-w-[120px] rounded-full bg-gradient-to-r px-5 py-1 text-center font-semibold text-white transition duration-200 hover:opacity-90"
           >
