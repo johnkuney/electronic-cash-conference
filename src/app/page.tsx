@@ -1,17 +1,15 @@
 import { SpeakerCardDummy } from '@/components/speakerCard'
 
 export default function Home() {
-  const LogoImage = ({ image }) => {
-    return (
-      <div className="my-6 flex w-1/2 items-center justify-center px-6 md:my-0 md:w-1/4">
-        <img
-          className="h-auto max-h-[50px] w-full object-contain"
-          src={`/${image}`}
-          alt="ECC Supporter"
-        />
-      </div>
-    )
-  }
+  const LogoImage = ({ image }: { image: string }) => (
+    <div className="my-6 flex w-1/2 items-center justify-center px-6 md:my-0 md:w-1/4">
+      <img
+        className="h-auto max-h-[50px] w-full object-contain"
+        src={`/${image}`}
+        alt="ECC Supporter"
+      />
+    </div>
+  )
 
   return (
     <div>
