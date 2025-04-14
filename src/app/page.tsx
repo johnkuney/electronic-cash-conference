@@ -141,7 +141,7 @@ export default function Home() {
         <h2>Tickets</h2>
         <div className="flex flex-col items-start gap-10 md:flex-row">
           <p className="md:w-1/2">
-            Tickets will be available to purchase (with eCash) soon.
+            Tickets will be available to purchase soon.
             <br />
             Stay tuned for pricing and availability!
           </p>
