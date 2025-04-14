@@ -1,6 +1,18 @@
 import { SpeakerCardDummy } from '@/components/speakerCard'
 
 export default function Home() {
+  const LogoImage = ({ image }) => {
+    return (
+      <div className="my-6 flex w-1/2 items-center justify-center px-6 md:my-0 md:w-1/4">
+        <img
+          className="h-auto max-h-[50px] w-full object-contain"
+          src={`/${image}`}
+          alt="ECC Supporter"
+        />
+      </div>
+    )
+  }
+
   return (
     <div>
       <section className="relative bg-[url('/bg2.jpg')] bg-cover bg-center bg-no-repeat">
@@ -43,6 +55,15 @@ export default function Home() {
         </div>
         <div className="from-accent/20 to-background/0 pointer-events-none absolute bottom-0 h-200 w-full bg-gradient-to-t via-transparent" />
       </section>
+      <div
+        className="fade-up mx-auto mt-10 flex max-w-7xl flex-wrap items-center md:mt-20"
+        style={{ animationDelay: '600ms' }}
+      >
+        <LogoImage image="ecash-logo.png" />
+        <LogoImage image="paybutton-logo.png" />
+        <LogoImage image="gnc-logo.png" />
+        <LogoImage image="pay2stay-logo.png" />
+      </div>
       <section
         className="fade-up mx-auto max-w-7xl px-6 py-30"
         id="about"
