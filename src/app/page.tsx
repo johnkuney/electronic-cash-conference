@@ -1,5 +1,6 @@
-import { SpeakerCardDummy } from '@/components/speakerCard'
-
+// import { SpeakerCardDummy } from '@/components/speakerCard'
+import { speakers } from './data'
+import SpeakerCard from '@/components/speakerCard'
 export default function Home() {
   const LogoImage = ({ image }: { image: string }) => (
     <div className="my-6 flex w-1/2 items-center justify-center px-6 md:my-0 md:w-1/4">
@@ -91,17 +92,16 @@ export default function Home() {
       <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="speakers">
         <h2>Speakers</h2>
         <p className="text-lg leading-loose">
-          We’re excited to host a lineup of incredible speakers. Stay tuned,
-          speaker announcements coming soon!
+          We’re excited to host a lineup of incredible speakers
         </p>
         <div className="flex flex-wrap">
-          {/* {speakers.map((speaker, i) => (
+          {speakers.map((speaker, i) => (
             <SpeakerCard key={i} speaker={speaker} />
-          ))} */}
+          ))}
+          {/* <SpeakerCardDummy />
           <SpeakerCardDummy />
           <SpeakerCardDummy />
-          <SpeakerCardDummy />
-          <SpeakerCardDummy />
+          <SpeakerCardDummy /> */}
         </div>
       </section>
 
