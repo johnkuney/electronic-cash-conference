@@ -18,7 +18,7 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
       <div className="bg-card border-accent/40 flex-1 border-x-2 border-b-2 p-6">
         <h3 className="text-2xl leading-tight font-black">{speaker.name}</h3>
         <span className="text-accent text-sm font-bold">{speaker.title}</span>
-        {/* <p className="text-secondaryText mt-3 text-base">{speaker.bio}</p> */}
+        <p className="text-secondaryText mt-3 text-base">{speaker.bio}</p>
       </div>
     </div>
   )
