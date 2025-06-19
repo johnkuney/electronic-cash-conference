@@ -159,7 +159,7 @@ export default function Home() {
             className="h-14 w-auto"
           />
           <a
-            href="https://x.com/eCashOfficial"
+            href="https://x.com/eCash"
             target="_blank"
             rel="noopener noreferrer"
           >
