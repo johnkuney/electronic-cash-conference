@@ -135,14 +135,26 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="tickets">
+      <section
+        className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
+        id="tickets"
+      >
         <h2>Tickets</h2>
         <div className="flex flex-col items-start gap-10 md:flex-row">
-          <p className="md:w-1/2">
-            Tickets will be available to purchase soon.
-            <br />
-            Stay tuned for pricing and availability!
-          </p>
+          <div>
+            <p className="md:w-1/2">
+              Early bird tickets for Electronic Cash Conference 2025 are now
+              available! Buy now and save 34%!
+            </p>
+            <a
+              href="https://app.tixtown.com/event/detail?code=ECC"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="from-accent to-accentDark mt-8 inline-flex w-full justify-center rounded-full bg-gradient-to-r px-12 py-3 text-center font-semibold text-white transition duration-200 hover:opacity-90 md:w-[unset]"
+            >
+              Get Tickets
+            </a>
+          </div>
           <img
             src="/ticket2.jpg"
             alt="ECC Ticket"
