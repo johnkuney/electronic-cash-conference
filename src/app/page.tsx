@@ -61,7 +61,7 @@ export default function Home() {
         <LogoImage image="ecash-logo.png" />
         <LogoImage image="paybutton-logo.png" />
         <LogoImage image="gnc-logo.png" />
-        <LogoImage image="pay2stay-logo.png" />
+        <LogoImage image="tixtown-logo.png" />
       </div>
       <section
         className="fade-up mx-auto max-w-7xl px-6 py-30"
