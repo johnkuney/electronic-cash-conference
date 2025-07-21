@@ -142,18 +142,28 @@ export default function Home() {
         <h2>Tickets</h2>
         <div className="flex flex-col items-start gap-10 md:flex-row">
           <div>
-            <p className="md:w-1/2">
+            <p className="md:w-2/3">
               Early bird tickets for Electronic Cash Conference 2025 are now
               available! Buy now and save 34%!
             </p>
-            <a
-              href="https://app.tixtown.com/event/detail?code=ECC"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="from-accent to-accentDark mt-8 inline-flex w-full justify-center rounded-full bg-gradient-to-r px-12 py-3 text-center font-semibold text-white transition duration-200 hover:opacity-90 md:w-[unset]"
-            >
-              Get Tickets
-            </a>
+            <div className="flex w-full flex-col gap-4 lg:max-w-[300px]">
+              <a
+                href="https://buy.ecashconference.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="from-accent to-accentDark mt-8 inline-flex w-full justify-center rounded-full bg-gradient-to-r px-12 py-3 text-center font-semibold text-white transition duration-200 hover:opacity-90 md:w-[unset]"
+              >
+                Buy with Crypto
+              </a>
+              <a
+                href="https://app.tixtown.com/event/detail?code=ECC"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="from-accent to-accentDark mt-8 inline-flex w-full justify-center rounded-full bg-gradient-to-r px-12 py-3 text-center font-semibold text-white transition duration-200 hover:opacity-90 md:w-[unset]"
+              >
+                Buy with Fiat
+              </a>
+            </div>
           </div>
           <img
             src="/ticket2.jpg"
