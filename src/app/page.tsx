@@ -117,11 +117,17 @@ export default function Home() {
             <div className="mt-6 flex items-center gap-6">
               <img src="/pin.png" className="h-16" />
               <div className="text-xl font-bold">
+                <a
+                  href="https://www.nh-hotels.com/en/hotel/nh-sants-barcelona"
+                  target="_blank"
+                  className="hover:text-accent underline"
+                >
+                  Hotel NH Sants Barcelona
+                </a>
+                <br />
+                Carrer Numància, 74, Les Corts, 08029
+                <br />
                 Barcelona, Spain
-                <br />
-                Venue TBD
-                <br />
-                October 4-5, 2025
               </div>
             </div>
           </div>
