@@ -150,7 +150,7 @@ export default function Home() {
           <div>
             <p className="md:w-2/3">
               Tickets for the Electronic Cash Conference 2025 are still
-              available! Buy now with Crypto or Fiat.
+              available! Buy now with crypto or fiat.
             </p>
             <div className="flex w-full flex-col gap-4 lg:max-w-[300px]">
               <a
