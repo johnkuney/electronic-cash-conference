@@ -149,8 +149,8 @@ export default function Home() {
         <div className="flex flex-col items-start gap-10 md:flex-row">
           <div>
             <p className="md:w-2/3">
-              Early bird tickets for Electronic Cash Conference 2025 are now
-              available! Buy now and save 34%!
+              Tickets for the Electronic Cash Conference 2025 are still
+              available! Buy now with Crypto or Fiat.
             </p>
             <div className="flex w-full flex-col gap-4 lg:max-w-[300px]">
               <a
