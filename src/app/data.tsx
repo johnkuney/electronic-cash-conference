@@ -30,4 +30,10 @@ export const speakers: Speakers[] = [
     title: 'CTO of TixTown',
     bio: 'Tobias Ruck is an award-winning software developer and entrepreneur in the digital assets space. He is the CTO of TixTown.com and works as a developer for eCash. Holds a B.Sc in Applied Computer Science from DHBW Stuttgart, he worked on Bitcoin Cash, at the German Aerospace Center, and at Hewlett-Packard.',
   },
+  {
+    name: 'Mathieu Geukens',
+    image: '/geukens.png',
+    title: 'BCH Developer',
+    bio: 'Mathieu Geukens is a Bitcoin Cash developer spearheading the CashTokens ecosystem. He’s the creator of the Cashonize wallet and contributes to the development of the CashScript language, tooling, and SDK. After earning his Master’s in Economics from KU Leuven, Mathieu began his professional developer journey in 2022.',
+  },
 ]
