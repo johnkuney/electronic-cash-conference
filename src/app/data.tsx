@@ -36,4 +36,10 @@ export const speakers: Speakers[] = [
     title: 'BCH Developer',
     bio: 'Mathieu Geukens is a Bitcoin Cash developer spearheading the CashTokens ecosystem. He’s the creator of the Cashonize wallet and contributes to the development of the CashScript language, tooling, and SDK. After earning his Master’s in Economics from KU Leuven, Mathieu began his professional developer journey in 2022.',
   },
+  {
+    name: 'Reuben Yap',
+    image: '/yap.png',
+    title: 'Co-founder Firo',
+    bio: 'Reuben Yap is the co-founder of FIRO, where he leads the project’s strategy, development goals, and research efforts. A long-time advocate for online and financial privacy, Reuben founded one of Southeast Asia’s earliest VPN services to fight censorship.',
+  },
 ]
