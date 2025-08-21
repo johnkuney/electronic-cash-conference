@@ -40,6 +40,6 @@ export const speakers: Speakers[] = [
     name: 'Reuben Yap',
     image: '/yap.png',
     title: 'Co-founder Firo',
-    bio: 'Reuben Yap is the co-founder of FIRO, where he leads the project’s strategy, development goals, and research efforts. A long-time advocate for online and financial privacy, Reuben founded one of Southeast Asia’s earliest VPN services to fight censorship.',
+    bio: 'Reuben Yap is the co-founder of FIRO, where he leads the project’s strategy, development goals, and research efforts. A long-time advocate for online and financial privacy, Reuben founded one of Southeast Asia’s earliest VPN services to fight censorship. With a background as a practicing lawyer for over a decade, Reuben brings both technical and legal expertise to the privacy conversation.',
   },
 ]
