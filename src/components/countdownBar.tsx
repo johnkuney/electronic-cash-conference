@@ -12,8 +12,8 @@ export default function CountdownBar() {
   const [showCountdown, setShowCountdown] = useState(false)
 
   useEffect(() => {
-    const startTime = new Date('2025-09-04T00:00:00.000+01:00')
-    const endTime = new Date('2025-09-07T00:00:00.000+01:00')
+    const startTime = new Date('2025-09-04T02:00:00.000+01:00')
+    const endTime = new Date('2025-09-07T02:00:00.000+01:00')
 
     const checkTime = () => {
       const now = new Date()
