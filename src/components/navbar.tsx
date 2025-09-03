@@ -3,6 +3,7 @@
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
 import { Menu, X } from 'lucide-react'
+import CountdownBar from './countdownBar'
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -24,6 +25,7 @@ export default function Navbar() {
           : 'bg-background'
       }`}
     >
+      <CountdownBar />
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center space-x-3">
           <img

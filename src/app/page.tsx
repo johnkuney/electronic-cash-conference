@@ -19,9 +19,8 @@ export default function Home() {
           className="fade-bg absolute top-0 left-0 h-full w-full bg-black"
           style={{ animationDelay: '200ms' }}
         ></div>
-        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-40 pb-30 lg:grid-cols-2">
+        <div className="relative mx-auto grid max-w-7xl items-center gap-10 px-6 pt-50 pb-30 lg:grid-cols-2">
           <div className="fade-up z-10" style={{ animationDelay: '300ms' }}>
-            <span className="text-accent tracking-[12px]">SAVE THE DATE</span>
             <h1 className="text-5xl font-black sm:text-6xl md:text-[90px]">
               ELECTRONIC
               <br />
