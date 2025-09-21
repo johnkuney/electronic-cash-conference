@@ -43,16 +43,22 @@ export default function Navbar() {
             About
           </Link>
           <Link
+            href="#location"
+            className="hover:text-accent font-semibold transition duration-200"
+          >
+            Location
+          </Link>
+          <Link
             href="#speakers"
             className="hover:text-accent font-semibold transition duration-200"
           >
             Speakers
           </Link>
           <Link
-            href="#location"
+            href="#schedule"
             className="hover:text-accent font-semibold transition duration-200"
           >
-            Location
+            Schedule
           </Link>
           <Link
             href="#tickets"

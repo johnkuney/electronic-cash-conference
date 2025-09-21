@@ -1,6 +1,7 @@
 // import { SpeakerCardDummy } from '@/components/speakerCard'
-import { speakers } from './data'
+import { speakers, schedule } from './data'
 import SpeakerCard from '@/components/speakerCard'
+import ScheduleCard from '@/components/scheduleCard'
 export default function Home() {
   const LogoImage = ({ image }: { image: string }) => (
     <div className="my-6 flex w-1/2 items-center justify-center px-6 md:my-0 md:w-1/4">
@@ -88,22 +89,6 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="speakers">
-        <h2>Speakers</h2>
-        <p className="text-lg leading-loose">
-          We’re excited to host a lineup of incredible speakers
-        </p>
-        <div className="flex flex-wrap">
-          {speakers.map((speaker, i) => (
-            <SpeakerCard key={i} speaker={speaker} />
-          ))}
-          {/* <SpeakerCardDummy />
-          <SpeakerCardDummy />
-          <SpeakerCardDummy />
-          <SpeakerCardDummy /> */}
-        </div>
-      </section>
-
       <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="location">
         <h2>Location</h2>
         <div className="flex flex-col gap-8 md:flex-row">
@@ -137,6 +122,42 @@ export default function Home() {
               className="max-h-full max-w-full"
             />
           </div>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="speakers">
+        <h2>Speakers</h2>
+        <p className="text-lg leading-loose">
+          We're excited to host a lineup of incredible speakers
+        </p>
+        <div className="flex flex-wrap">
+          {speakers.map((speaker, i) => (
+            <SpeakerCard key={i} speaker={speaker} />
+          ))}
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-4xl px-6 pt-0 pb-30" id="schedule">
+        <h2>Schedule</h2>
+        <p className="text-lg leading-loose">
+          Join us for two days of talks, workshops, and networking
+        </p>
+        <div className="text-secondaryText mb-8 text-xs">
+          *Note: All times are in Barcelona local time (CEST, UTC+2)
+        </div>
+        <div className="space-y-8">
+          {schedule.map((day, dayIndex) => (
+            <div key={dayIndex} className="space-y-4">
+              <div className="pb-2">
+                <h3 className="text-accent text-2xl font-bold">{day.date}</h3>
+              </div>
+              <div className="space-y-3">
+                {day.items.map((item) => (
+                  <ScheduleCard key={item.id} item={item} />
+                ))}
+              </div>
+            </div>
+          ))}
         </div>
       </section>
 
