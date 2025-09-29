@@ -64,7 +64,7 @@ export default function Home() {
         <LogoImage image="tixtown-logo.png" />
       </div>
       <section
-        className="fade-up mx-auto max-w-7xl px-6 py-30"
+        className="fade-up mx-auto max-w-7xl scroll-mt-[100px] px-6 py-30"
         id="about"
         style={{ animationDelay: '600ms' }}
       >
@@ -89,7 +89,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="location">
+      <section
+        className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
+        id="location"
+      >
         <h2>Location</h2>
         <div className="flex flex-col gap-8 md:flex-row">
           <div className="flex w-full flex-col md:w-1/2">
@@ -125,7 +128,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-7xl px-6 pt-0 pb-30" id="speakers">
+      <section
+        className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
+        id="speakers"
+      >
         <h2>Speakers</h2>
         <p className="text-lg leading-loose">
           We&apos;re excited to host a lineup of incredible speakers
@@ -137,7 +143,10 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="mx-auto max-w-4xl px-6 pt-0 pb-30" id="schedule">
+      <section
+        className="mx-auto max-w-4xl scroll-mt-[100px] px-6 pt-0 pb-30"
+        id="schedule"
+      >
         <h2>Schedule</h2>
         <p className="text-lg leading-loose">
           Join us for two days of talks, workshops, and networking
