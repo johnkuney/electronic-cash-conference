@@ -25,6 +25,12 @@ export default function Navbar() {
           : 'bg-background'
       }`}
     >
+      <div className="bg-accent flex w-full items-center justify-center px-2 py-2 text-center text-sm font-bold lg:px-10 lg:py-2 lg:text-base">
+        Thank you to everyone who attended the 2025 ECC!
+        <br />
+        Stay tuned for videos and photos from the event!
+      </div>
+
       <CountdownBar />
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
         <Link href="/" className="flex items-center space-x-3">
