@@ -35,22 +35,7 @@ export default function Home() {
             <div className="text-pop mt-4 text-2xl tracking-[12px] md:text-5xl">
               OCT 4-5 | 2025
             </div>
-
-            {/* <Link
-              href="#register"
-              className="from-accent to-accentDark mt-10 inline-block rounded-full bg-gradient-to-r px-6 py-3 font-semibold text-white transition hover:opacity-90"
-            >
-              Register Now
-            </Link> */}
           </div>
-
-          {/* <div className="relative z-7 flex h-[350px] items-center justify-center lg:h-[620px]">
-            <img
-              src="/hero-3.png"
-              alt="Electronic Cash Logo"
-              className="max-h-full max-w-full"
-            />
-          </div> */}
         </div>
         <div className="from-accent/20 to-background/0 pointer-events-none absolute bottom-0 h-200 w-full bg-gradient-to-t via-transparent" />
       </section>
@@ -170,7 +155,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section
+      {/* <section
         className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
         id="tickets"
       >
@@ -206,7 +191,7 @@ export default function Home() {
             className="w-full md:w-1/2"
           />
         </div>
-      </section>
+      </section> */}
 
       <section className="w-full bg-black">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-40 pt-20">

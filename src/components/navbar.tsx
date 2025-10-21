@@ -60,12 +60,6 @@ export default function Navbar() {
           >
             Schedule
           </Link>
-          <Link
-            href="#tickets"
-            className="from-accent to-accentDark rounded-full bg-gradient-to-r px-5 py-1 font-semibold text-white transition duration-200 hover:opacity-90"
-          >
-            Tickets
-          </Link>
         </nav>
 
         {/* Mobile Hamburger */}
@@ -101,13 +95,6 @@ export default function Navbar() {
             className="block font-semibold"
           >
             Location
-          </Link>
-          <Link
-            href="#tickets"
-            onClick={() => setIsOpen(false)}
-            className="from-accent to-accentDark max-w-[120px] rounded-full bg-gradient-to-r px-5 py-1 text-center font-semibold text-white transition duration-200 hover:opacity-90"
-          >
-            Tickets
           </Link>
         </div>
       )}
