@@ -15,13 +15,13 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
         />
         <div className="from-accent/50 to-background border-accent h-2/3 w-full rounded-t-lg border-x-2 border-t-2 bg-gradient-to-b"></div>
       </div>
-      <div className="bg-card border-accent/40 flex-1 border-x-2 border-b-2 p-6">
+      <div className="bg-card border-accent/40 flex h-full flex-1 flex-col border-x-2 border-b-2 p-6">
         <h3 className="text-2xl leading-tight font-black">{speaker.name}</h3>
         <span className="text-accent text-sm font-bold">{speaker.title}</span>
         <p className="text-secondaryText mt-3 text-base">{speaker.bio}</p>
         {speaker.videoId && (
-          <div className="mt-4 w-full">
-            <div className="relative w-full pt-[56.25%]">
+          <div className="mt-auto w-full">
+            <div className="relative mt-8 w-full pt-[56.25%]">
               <iframe
                 className="absolute top-0 left-0 h-full w-full rounded"
                 src={`https://www.youtube.com/embed/${speaker.videoId}`}
