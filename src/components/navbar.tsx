@@ -49,12 +49,6 @@ export default function Navbar() {
             About
           </Link>
           <Link
-            href="#location"
-            className="hover:text-accent font-semibold transition duration-200"
-          >
-            Location
-          </Link>
-          <Link
             href="#speakers"
             className="hover:text-accent font-semibold transition duration-200"
           >
@@ -65,6 +59,12 @@ export default function Navbar() {
             className="hover:text-accent font-semibold transition duration-200"
           >
             Videos
+          </Link>
+          <Link
+            href="#location"
+            className="hover:text-accent font-semibold transition duration-200"
+          >
+            Location
           </Link>
           <Link
             href="#schedule"

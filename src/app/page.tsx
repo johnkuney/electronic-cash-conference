@@ -76,6 +76,21 @@ export default function Home() {
 
       <section
         className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
+        id="speakers"
+      >
+        <h2>Speakers</h2>
+        <p className="text-lg leading-loose">
+          We&apos;re excited to host a lineup of incredible speakers
+        </p>
+        <div className="flex flex-wrap">
+          {speakers.map((speaker, i) => (
+            <SpeakerCard key={i} speaker={speaker} />
+          ))}
+        </div>
+      </section>
+
+      <section
+        className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
         id="location"
       >
         <h2>Location</h2>
@@ -110,21 +125,6 @@ export default function Home() {
               className="max-h-full max-w-full"
             />
           </div>
-        </div>
-      </section>
-
-      <section
-        className="mx-auto max-w-7xl scroll-mt-[100px] px-6 pt-0 pb-30"
-        id="speakers"
-      >
-        <h2>Speakers</h2>
-        <p className="text-lg leading-loose">
-          We&apos;re excited to host a lineup of incredible speakers
-        </p>
-        <div className="flex flex-wrap">
-          {speakers.map((speaker, i) => (
-            <SpeakerCard key={i} speaker={speaker} />
-          ))}
         </div>
       </section>
 
