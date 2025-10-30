@@ -19,7 +19,7 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
         <h3 className="text-2xl leading-tight font-black">{speaker.name}</h3>
         <span className="text-accent text-sm font-bold">{speaker.title}</span>
         <p className="text-secondaryText mt-3 text-base">{speaker.bio}</p>
-        {speaker.videoId && (
+        {speaker.videoId ? (
           <div className="mt-auto w-full">
             <div className="relative mt-8 w-full pt-[56.25%]">
               <iframe
@@ -31,6 +31,16 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
                 referrerPolicy="strict-origin-when-cross-origin"
                 allowFullScreen
               ></iframe>
+            </div>
+          </div>
+        ) : (
+          <div className="mt-auto w-full">
+            <div className="mt-8 w-full">
+              <div className="relative w-full pt-[56.25%]">
+                <div className="text-secondaryText absolute top-0 left-0 flex h-full w-full items-center justify-center rounded bg-gray-200/20">
+                  Video coming soon
+                </div>
+              </div>
             </div>
           </div>
         )}
