@@ -19,6 +19,21 @@ export default function SpeakerCard({ speaker }: SpeakerCardProps) {
         <h3 className="text-2xl leading-tight font-black">{speaker.name}</h3>
         <span className="text-accent text-sm font-bold">{speaker.title}</span>
         <p className="text-secondaryText mt-3 text-base">{speaker.bio}</p>
+        {speaker.videoId && (
+          <div className="mt-4 w-full">
+            <div className="relative w-full pt-[56.25%]">
+              <iframe
+                className="absolute top-0 left-0 h-full w-full rounded"
+                src={`https://www.youtube.com/embed/${speaker.videoId}`}
+                title={`YouTube video player - ${speaker.name}`}
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        )}
       </div>
     </div>
   )

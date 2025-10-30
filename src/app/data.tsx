@@ -3,6 +3,7 @@ export interface Speakers {
   image: string
   title?: string
   bio?: string
+  videoId?: string
 }
 
 export const speakers: Speakers[] = [
@@ -11,6 +12,7 @@ export const speakers: Speakers[] = [
     image: '/sechet.png',
     title: 'Founder Bitcoin ABC',
     bio: 'Amaury Séchet is the founder of Bitcoin ABC and creator of Bitcoin Cash (BCH) and eCash (XEC). He is specialized in scaling large-system architecture and was the lead developer at the Snazzy D Compiler. Amaury worked for Facebook researching digital cash solutions before his involvement in crypto.',
+    videoId: '1DorKsZWMbU',
   },
   {
     name: 'Joey King',
@@ -23,6 +25,7 @@ export const speakers: Speakers[] = [
     image: '/armani.png',
     title: 'CTO Marianas Rai Corp',
     bio: "Vin Armani is a technologist, entrepreneur, and author in the digital assets space. He is the founder and CTO of Marianas Rai Corp, which launched the world's first publicly issued dollar token, TUSDT. Known for his contributions and thought leadership on Bitcoin, he gained over a decade of experience developing multiple innovative digital payment protocols.",
+    videoId: 'H22X6ySCtG0',
   },
   {
     name: 'Tobias Ruck',
@@ -35,6 +38,7 @@ export const speakers: Speakers[] = [
     image: '/geukens.png',
     title: 'BCH Developer',
     bio: "Mathieu Geukens is a Bitcoin Cash developer spearheading the CashTokens ecosystem. He's the creator of the Cashonize wallet and contributes to the development of the CashScript language, tooling, and SDK. After earning his Master's in Economics from KU Leuven, Mathieu began his professional developer journey in 2022.",
+    videoId: 'JZn9O2PbZLk',
   },
   {
     name: 'Reuben Yap',

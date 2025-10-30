@@ -28,7 +28,7 @@ export default function Navbar() {
       <div className="bg-accent flex w-full items-center justify-center px-2 py-2 text-center text-sm font-bold lg:px-10 lg:py-2 lg:text-base">
         Thank you to everyone who attended the 2025 ECC!
         <br />
-        Stay tuned for videos and photos from the event!
+        Check out videos from the event below!
       </div>
 
       <CountdownBar />
@@ -59,6 +59,12 @@ export default function Navbar() {
             className="hover:text-accent font-semibold transition duration-200"
           >
             Speakers
+          </Link>
+          <Link
+            href="#speakers"
+            className="hover:text-accent font-semibold transition duration-200"
+          >
+            Videos
           </Link>
           <Link
             href="#schedule"
