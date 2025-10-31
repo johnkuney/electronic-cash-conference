@@ -32,6 +32,7 @@ export const speakers: Speakers[] = [
     image: '/ruck.png',
     title: 'CTO of TixTown',
     bio: 'Tobias Ruck is an award-winning software developer and entrepreneur in the digital assets space. He is the CTO of TixTown.com and works as a developer for eCash. Holds a B.Sc in Applied Computer Science from DHBW Stuttgart, he worked on Bitcoin Cash, at the German Aerospace Center, and at Hewlett-Packard.',
+    videoId: 'nvWynJB5Nkg',
   },
   {
     name: 'Mathieu Geukens',
