@@ -19,6 +19,7 @@ export const speakers: Speakers[] = [
     image: '/king.png',
     title: 'eCash dev',
     bio: 'Joey King is a senior full stack dev for Bitcoin ABC, where he works on JS toolkits and eCash products. He is the lead developer of Cashtab.com. A mechanical engineer, Joey worked for 10 years at ExxonMobil and Samsung before transitioning to crypto full time in 2017.',
+    videoId: '9WHvgVJ6mao',
   },
   {
     name: 'Vin Armani',
