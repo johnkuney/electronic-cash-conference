@@ -87,6 +87,22 @@ export default function Home() {
             <SpeakerCard key={i} speaker={speaker} />
           ))}
         </div>
+        <div className="mt-12 pl-4">
+          <h3 className="mb-8 text-lg font-bold">Quick Interlude 😄</h3>
+          <div className="max-w-sm">
+            <div className="relative w-full pt-[56.25%]">
+              <iframe
+                className="absolute top-0 left-0 h-full w-full rounded"
+                src="https://www.youtube.com/embed/fGZpaqMha0o"
+                title="Bonus Video - Electronic Cash Conference"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerPolicy="strict-origin-when-cross-origin"
+                allowFullScreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
       </section>
 
       <section
